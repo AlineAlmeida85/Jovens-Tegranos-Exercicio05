@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>EXERCÍCIO 05</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="page-header">Valor do Raio - EXERCÍCIO 05</h1>
+                <p>Fazer um programa para ler o valor "r" do raio de um círculo, e depois
+                    mostrar o valor da área do círculo com três casas decimais. A fórmula da
+                    área do círculo é a seguinte: área = π. r2. O valor de π corresponde a 3.14159.</p>
+            </div>
+        </div>
+        <div class="container formulario">
+            <form>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Digite o valor do raio do círculo:</span>
+                        <input id="inputRaio" type="number" class="form-control" aria-describedby="sizing-addon1">
+                        <span class="input-group-addon"></span> 
+                    </div>                  
+                </div>                            
+                <button type="button" class="btn btn-info" onclick="calcular()">Calcular</button>
+            </form>
+        </div>
+        <br>
+        <div class="container formulario" id="form2">
+            <form>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Área:</span>                
+                        <p class="form-control" id="valorArea"></p>
+                        <span class="input-group-addon"></span>                    
+                    </div>            
+                </div>       
+            </form>      
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <p>Espero que  tenha gostado! Feito por Aline Almeida ❤️</p>             
+            </div>
+        </div>
+        <script src="./script.js"></script>     
+    </body>
+</html>
